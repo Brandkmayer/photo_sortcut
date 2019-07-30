@@ -9,11 +9,12 @@ totalphotocsv <- read.csv('F:/cameratraps/riopenasco/upland/RPU_03262019_0509201
 photolist <- totalphotocsv$ImageFilename
 
 # ENTER NAME OF SORTING LOG
-csv <- "Sorting Log - RPU.csv"
+csv <- "EFK"
+
 
 # sets working directory to folder of interest and read from photo file path
-working_directory <-setwd("C:/Users/Brandonmayer/Dropbox/photo_proc/sorting_log")
-photofilepath <- paste(working_directory, csv, collapse = "", sep = "/")
+working_directory <-setwd("C:/Users/brand/Dropbox/photo_sortcut/sorting_log/")
+photofilepath <- paste(working_directory, "/Sorting Log - ",  csv, ".csv", collapse = "", sep = "")
 RAW <- read.csv(photofilepath, header=TRUE, na.strings=c(""," ","NA"))
 
 # subsets by filling in NAs (after manually removing all the extra subfolders)

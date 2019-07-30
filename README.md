@@ -11,7 +11,7 @@ This script works under the assumption that you have access to the [Sorting log]
 
 Through sorting log you can locate a site of interest and download the sorted file. This should be down when all of the sorting has been completed on a site for the season. Doing so in chunks might reduce the time need to copy files over but in the long run this time is pretty insignificant compared to moving over entire folders.  
 
-![](C:\Users\brand\Dropbox\photo_sortcut\md_photos\csv_directions.png)
+![](https://imgur.com/9kn54QM.jpg)
 
 Save the csv file to "sorting_log" folder in the cloned folder. (Current Rscript should have a pathway set up to the cloned folder should this should make the scripts use a bit easier)
 
@@ -19,13 +19,13 @@ Save the csv file to "sorting_log" folder in the cloned folder. (Current Rscript
 
 When "proto_sort_consolidate.R" is loaded you'll need to change the pathways for:
 
-* photo folder on either a server or an external harddrive 
+* photo folder on either a server or an external harddrive
 * three letter code for the sorting log file (Sorting Log - _@@@_.csv) 
 
 	Enter in as 			"csv <- @@@""
 
 
-![](C:\Users\brand\Dropbox\photo_sortcut\md_photos\CSVfilled.png)
+![](https://imgur.com/emAep8z.jpg)
  
  After running steps in script to fill empty columns the csv should show up as shown above. 
 

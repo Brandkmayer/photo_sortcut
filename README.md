@@ -2,7 +2,7 @@
 Auto sort and relocate photo files by starting and ending photo file name.
 
 #Setup
-Clone repository onto your local computer. 
+Clone repository on your local computer. 
 
 ![A pretty Tiger](https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)
 
